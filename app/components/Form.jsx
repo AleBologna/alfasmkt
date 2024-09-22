@@ -21,7 +21,7 @@ export default function Form() {
             type="email"
             name="floating_email"
             id="floating_email"
-            className="block py-2.5 px-0 w-full text-sm  bg-transparent border-0 border-b-2  appearance-none text-black border-[#2D4C9C]  focus:outline-none focus:ring-0 focus:border-blue-100 peer"
+            className="block py-2.5 px-0 w-full text-sm  bg-transparent border-0 border-b-2  appearance-none text-white border-[#2D4C9C]  focus:outline-none focus:ring-0 focus:border-blue-100 peer"
             placeholder=" "
             required
           />
@@ -39,7 +39,7 @@ export default function Form() {
               type="text"
               name="floating_first_name"
               id="floating_first_name"
-              className="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 appearance-none text-black border-[#2D4C9C]  focus:outline-none focus:ring-0 focus:border-blue-100 peer"
+              className="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 appearance-none text-white border-[#2D4C9C]  focus:outline-none focus:ring-0 focus:border-blue-100 peer"
               placeholder=" "
               required
             />
@@ -57,7 +57,7 @@ export default function Form() {
               maxLength="20"
               name="floating_phone"
               id="floating_phone"
-              className="block py-2.5 px-0 w-full text-sm  bg-transparent border-0 border-b-2  appearance-none text-black border-[#2D4C9C] focus:outline-none focus:ring-0 focus:border-blue-100 peer"
+              className="block py-2.5 px-0 w-full text-sm  bg-transparent border-0 border-b-2  appearance-none text-white border-[#2D4C9C] focus:outline-none focus:ring-0 focus:border-blue-100 peer"
               placeholder=" "
               value={telefono}
               onChange={validarTelefono}
@@ -75,7 +75,7 @@ export default function Form() {
         <div className="flex flex-col items-end gap-6 w-full">
           <div className="relative w-full min-w-[200px]">
             <textarea
-              className="peer h-full min-h-[100px] w-full resize-none border-b-2 pb-1 border-[#2D4C9C] bg-transparent pt-4 font-sans text-sm font-normal text-black outline outline-0 transition-all placeholder-shown:border-[#2D4C9C] focus:border-blue-100 focus:outline-0 disabled:resize-none disabled:border-0 disabled:bg-gray-50"
+              className="peer h-full min-h-[100px] w-full resize-none border-b-2 pb-1 border-[#2D4C9C] bg-transparent pt-4 font-sans text-sm font-normal text-white outline outline-0 transition-all placeholder-shown:border-[#2D4C9C] focus:border-blue-100 focus:outline-0 disabled:resize-none disabled:border-0 disabled:bg-gray-50"
               placeholder=" "
               name="floating_message"
               id="floating_message"

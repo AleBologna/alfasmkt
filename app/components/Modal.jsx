@@ -39,7 +39,7 @@ const Modal = ({ show, onClose, alfa }) => {
             <div className="flex flex-col gap-3  items-center mt-4 md:flex-row md:justify-center">
               <a
                 target="_blank"
-                href="/Hola.pdf"
+                href="/Diseño.pdf"
                 className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"
               >
                 <svg
@@ -91,7 +91,7 @@ const Modal = ({ show, onClose, alfa }) => {
             <div className="flex flex-col gap-3  items-center mt-4 md:flex-row md:justify-center">
               <a
                 target="_blank"
-                href="/Hola.pdf"
+                href="/Marketing_y_Finanzas.pdf"
                 className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"
               >
                 <svg
@@ -141,7 +141,7 @@ const Modal = ({ show, onClose, alfa }) => {
             <div className="flex flex-col gap-3  items-center mt-4 md:flex-row md:justify-center">
               <a
                 target="_blank"
-                href="/Hola.pdf"
+                href="/Desarrollo_Web.pdf"
                 className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"
               >
                 <svg
