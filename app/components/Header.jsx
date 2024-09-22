@@ -68,7 +68,7 @@ export default function Header() {
                 SERVICIOS
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 onClick={handleBurguer}
                 href="#aboutUsSection"
@@ -76,11 +76,11 @@ export default function Header() {
               >
                 NOSOTROS
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 onClick={handleBurguer}
-                href="#contactUsSection"
+                href="#ContactUsSection"
                 className="block py-1 px-3 rounded md:border-0 md:p-0 text-white md:hover:text-[#2D4C9C] hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
               >
                 CONTACTANOS

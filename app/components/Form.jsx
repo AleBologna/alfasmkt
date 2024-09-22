@@ -13,7 +13,7 @@ export default function Form() {
     <>
       <form
         className="w-2/3 mx-auto pt-4 md:w-[550px]"
-        action="https://formspree.io/f/mkgwbpow"
+        action="https://formspree.io/f/xjkbqeyn"
         method="POST"
       >
         <div className="relative z-0 w-full mb-5 group">
