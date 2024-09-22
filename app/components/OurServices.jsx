@@ -75,12 +75,14 @@ export default function OurServices() {
               <div key={alfa.id} className="mb-4">
                 <div className="w-64 h-96 mx-3 my-4 px-6 py-6 hover:scale-110 duration-500 bg-[url('/images/background.png')]">
                   <div className="h-1/2 flex flex-col justify-around">
-                    <h3 className="text-2xl font-bold text-center">
+                    <h3 className="text-2xl text-white font-bold text-center">
                       {alfa.name}
                     </h3>
-                    <p className="text-base text-center">"Servicios"</p>
+                    <p className="text-base text-white text-center">
+                      "Servicios"
+                    </p>
 
-                    <p className="my-6 text-base text-center">
+                    <p className="my-6 text-white text-base text-center">
                       {alfa.description}
                     </p>
                   </div>

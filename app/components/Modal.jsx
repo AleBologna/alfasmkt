@@ -31,10 +31,10 @@ const Modal = ({ show, onClose, alfa }) => {
               {alfa.name}
             </h2>
             <div className="text-center text-sm md:text-base">
-              <p className="font-bold">{alfa.title1}</p>
-              <p>{alfa.description1}</p>
-              <p className="font-bold">{alfa.title2}</p>
-              <p>{alfa.description2}</p>
+              <p className="font-bold text-white">{alfa.title1}</p>
+              <p className="text-white">{alfa.description1}</p>
+              <p className="font-bold text-white">{alfa.title2}</p>
+              <p className="text-white">{alfa.description2}</p>
             </div>
             <div className="flex flex-col gap-3  items-center mt-4 md:flex-row md:justify-center">
               <a
