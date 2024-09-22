@@ -4,9 +4,9 @@ import { FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <div className="h-16 bg-[#191128] flex justify-between px-7">
+    <div className="h-16 bg-[#191128] flex justify-between px-2 md:px-7">
       <div className="flex justify-center items-center">
-        <p className="text-[#99C1DA] font-semibold">
+        <p className="text-xs text-[#99C1DA] font-semibold md:text-lg">
           Copyright © 2024 - alfas.marketing. Todos los derechos reservados.
         </p>
       </div>
