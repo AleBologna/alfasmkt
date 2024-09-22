@@ -1,6 +1,7 @@
 import { FaWhatsapp } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
 import { FaInstagram } from "react-icons/fa";
+
 export default function Footer() {
   return (
     <div className="h-16 bg-[#191128] flex justify-between px-7">
